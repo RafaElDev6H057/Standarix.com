@@ -14,6 +14,11 @@ const router = createRouter({
       name: 'Ingenieria de Software',
       component: () => import('../views/SoftwareEngineeringView.vue'),
     },
+    {
+      path: '/control-calidad',
+      name: 'Control de Calidad',
+      component: () => import('../views/QualityControlView.vue'),
+    },
   ],
 })
 
