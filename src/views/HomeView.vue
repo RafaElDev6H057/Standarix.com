@@ -31,7 +31,7 @@ import CardSectionHome from '@/components/CardSectionHome.vue'
         <CardSectionHome
           title="Control de Calidad"
           description="Procesos, auditorías y herramientas para asegurar la calidad en proyectos según los niveles de madurez CMMI."
-          to="/gestion-calidad"
+          to="/control-calidad"
           :icon="CheckSquare"
           accentColor="purple"
         />
