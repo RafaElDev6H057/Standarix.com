@@ -4,7 +4,7 @@ import {
   ClipboardCheck,
   Shield,
   FileSearch,
-  TestTube,
+  ScanEye,
   FileBadge,
   ShieldCheck,
 } from 'lucide-vue-next'
@@ -28,7 +28,7 @@ import CardDriveDocument from '@/components/CardDriveDocument.vue'
         <h1
           class="text-3xl md:text-4xl font-bold bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent"
         >
-          Gestión de Calidad
+          Control de Calidad
         </h1>
         <p class="text-gray-400 mt-3 max-w-3xl">
           Documentación y recursos sobre procesos de gestión de calidad, auditorías y cumplimiento
@@ -40,20 +40,20 @@ import CardDriveDocument from '@/components/CardDriveDocument.vue'
     <main class="flex-grow px-6 py-8 md:py-12">
       <div class="max-w-7xl mx-auto">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <!-- Diseño y Planificación del Producto -->
+          <!-- Planeación -->
           <CardDriveDocument
-            title="Diseño y Planificación del Producto"
-            description="Metodologías y documentación para la planificación y diseño de productos de calidad."
-            url="https://example.com/"
+            title="Planeación"
+            description="Lograr resultados consistentes, eficientes y alineados con las expectativas."
+            url="https://drive.google.com/drive/folders/1HMJOOuL7ggLAgnhkJgTJgnNpnEJkClEq"
             :icon="ClipboardCheck"
             accentColor="purple"
           />
 
           <!-- Plan de Contingencia / Prevención de Fallas -->
           <CardDriveDocument
-            title="Plan de Contingencia"
+            title="Plan de Contingencia y Prevención de Fallas"
             description="Estrategias para la prevención y mitigación de fallas en los procesos de desarrollo."
-            url="https://example.com/"
+            url="https://drive.google.com/drive/folders/1A_CvlcTY_9AtzFyhx67nywpMiQn2J6ve"
             :icon="Shield"
             accentColor="red"
           />
@@ -62,17 +62,17 @@ import CardDriveDocument from '@/components/CardDriveDocument.vue'
           <CardDriveDocument
             title="Auditorías"
             description="Procedimientos y listas de verificación para auditorías internas y externas."
-            url="https://example.com/"
+            url="https://drive.google.com/drive/folders/1Zcu01AfyjYLnU6pgQvppRKPbO0eZAmUx"
             :icon="FileSearch"
             accentColor="blue"
           />
 
           <!-- Pruebas -->
           <CardDriveDocument
-            title="Pruebas"
-            description="Metodologías y documentación para pruebas de calidad y validación."
+            title="Monitoreo"
+            description="Evaluación constante de los procesos y resultados."
             url="https://example.com/"
-            :icon="TestTube"
+            :icon="ScanEye"
             accentColor="green"
           />
 

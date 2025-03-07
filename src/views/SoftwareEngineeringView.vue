@@ -1,14 +1,5 @@
 <script setup>
-import {
-  ChevronLeft,
-  ClipboardList,
-  Search,
-  Layers,
-  Code,
-  Server,
-  Beaker,
-  Gavel,
-} from 'lucide-vue-next'
+import { ChevronLeft, ClipboardList, Search, Layers, Code, Server, Gavel } from 'lucide-vue-next'
 import CardDriveDocument from '../components/CardDriveDocument.vue'
 </script>
 
@@ -40,12 +31,12 @@ import CardDriveDocument from '../components/CardDriveDocument.vue'
 
     <main class="flex-grow px-6 py-8 md:py-12">
       <div class="max-w-7xl mx-auto">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <!-- Requerimientos -->
           <CardDriveDocument
             title="Requerimientos"
             description="Documentación sobre captura, análisis y gestión de requerimientos de software."
-            url="https://example.com/"
+            url="https://drive.google.com/drive/folders/1V3vhS7b1Y8_2HvLs3BHBTOJuFiFV3szt"
             :icon="ClipboardList"
             accentColor="blue"
           />
@@ -54,7 +45,7 @@ import CardDriveDocument from '../components/CardDriveDocument.vue'
           <CardDriveDocument
             title="Análisis"
             description="Métodos y herramientas para el análisis de sistemas y modelado de procesos."
-            url="https://example.com/"
+            url="https://drive.google.com/drive/folders/1ugh9dRN1_F6-wjp3lrJSDNBEe3q8GSHm"
             :icon="Search"
             accentColor="indigo"
           />
@@ -63,7 +54,7 @@ import CardDriveDocument from '../components/CardDriveDocument.vue'
           <CardDriveDocument
             title="Diseño"
             description="Patrones de diseño, arquitectura de software y modelado UML."
-            url="https://example.com/"
+            url="https://drive.google.com/drive/folders/13Nfy7Uau75OD6EvAiKzrc5xLnEImBVNr"
             :icon="Layers"
             accentColor="purple"
           />
@@ -72,34 +63,25 @@ import CardDriveDocument from '../components/CardDriveDocument.vue'
           <CardDriveDocument
             title="Desarrollo"
             description="Buenas prácticas de codificación, estándares y guías de implementación."
-            url="https://example.com/"
+            url="https://drive.google.com/drive/folders/19fGbxDH7Q6fpns_CJIxpXLzmPYvpKN85"
             :icon="Code"
             accentColor="teal"
           />
 
-          <!-- Implementación -->
+          <!-- Pruebas e Implementación -->
           <CardDriveDocument
-            title="Implementación"
+            title="Pruebas e Implementación"
             description="Procesos de despliegue, integración continua y entrega de software."
-            url="https://example.com/"
+            url="https://drive.google.com/drive/folders/1WV7Z1fuUIWPAXHhzVJfAhYNJ0UVtC7Wv"
             :icon="Server"
             accentColor="green"
-          />
-
-          <!-- Pruebas -->
-          <CardDriveDocument
-            title="Pruebas"
-            description="Estrategias de testing, casos de prueba y aseguramiento de calidad."
-            url="https://example.com/"
-            :icon="Beaker"
-            accentColor="yellow"
           />
 
           <!-- Mantenimiento -->
           <CardDriveDocument
             title="Mantenimiento"
             description="Gestión de cambios, refactorización y evolución del software."
-            url="https://example.com/"
+            url="https://drive.google.com/drive/folders/12RTAej75JfRrho6rUXpdbJ9N9yj74X-8"
             :icon="Gavel"
             accentColor="orange"
           />
