@@ -6,7 +6,7 @@ import {
   FileSearch,
   ScanEye,
   FileBadge,
-  ShieldCheck,
+  // ShieldCheck,
 } from 'lucide-vue-next'
 import CardDriveDocument from '@/components/CardDriveDocument.vue'
 </script>
@@ -67,32 +67,32 @@ import CardDriveDocument from '@/components/CardDriveDocument.vue'
             accentColor="blue"
           />
 
-          <!-- Pruebas -->
+          <!-- Flujo de Trabajo y Reuniones -->
           <CardDriveDocument
-            title="Monitoreo"
-            description="Evaluación constante de los procesos y resultados."
-            url="https://example.com/"
-            :icon="ScanEye"
-            accentColor="green"
-          />
-
-          <!-- Estandarización de Procesos y Normativas -->
-          <CardDriveDocument
-            title="Estandarización de Procesos"
-            description="Normativas, estándares y mejores prácticas para la estandarización de procesos."
-            url="https://example.com/"
+            title="Flujo de Trabajo y Reuniones"
+            description="Definir los procesos que se deben realizar."
+            url="https://drive.google.com/drive/folders/17_-sSfS2QRKlhSperVt95UZ6-tqG2q_4"
             :icon="FileBadge"
             accentColor="indigo"
           />
 
-          <!-- Seguridad -->
+          <!-- Monitoreo -->
           <CardDriveDocument
+            title="Monitoreo"
+            description="Evaluación constante de los procesos y resultados."
+            url="https://drive.google.com/drive/folders/1698Yg0UHhw24Lan7cyRnz270lsUizteI"
+            :icon="ScanEye"
+            accentColor="green"
+          />
+
+          <!-- Seguridad -->
+          <!-- <CardDriveDocument
             title="Seguridad"
             description="Protocolos y medidas de seguridad para el desarrollo y mantenimiento de software."
             url="https://example.com/"
             :icon="ShieldCheck"
             accentColor="yellow"
-          />
+          /> -->
         </div>
       </div>
     </main>
